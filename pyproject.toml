@@ -1,0 +1,9 @@
+[project]
+name = "complicite"
+version = "0.1.0"
+description = "Boîte à jeux de soirée (Streamlit) — premier jeu : La Complicité"
+requires-python = ">=3.10"
+dependencies = ["streamlit>=1.37"]
+
+[tool.setuptools]
+packages = ["complicite_app"]
