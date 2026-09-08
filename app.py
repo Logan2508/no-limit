@@ -24,7 +24,7 @@ games = {g.id: g for g in get_games()}
 
 
 def _home() -> None:
-    ui.header("Complicité & Co", "La boîte à jeux pour rigoler à 2, 3 ou 4. Zéro matériel.")
+    ui.header("No Limit", "Elouan j'espère t'as bien la rage.")
     for game in games.values():
         state = "" if game.available else ' style="opacity:.45"'
         ui.card(
